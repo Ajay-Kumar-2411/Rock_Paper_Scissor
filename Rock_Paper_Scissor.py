@@ -79,6 +79,9 @@ while (n>0):
         
     n = n-1
 
+print(f"Your Current Score is: {your_score}")
+print(f"Computer Current Score is: {comp_score}")
+
 with open("hiscore_rps.txt","r") as f:
     hiscore = f.read()
 

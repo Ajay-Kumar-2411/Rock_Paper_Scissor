@@ -82,4 +82,4 @@ while (n>0):
 with open("hiscore_rps.txt","r") as f:
     hiscore = f.read()
 
-print("Hiscore is: " + hiscore)
+print("High Score is: " + hiscore)
